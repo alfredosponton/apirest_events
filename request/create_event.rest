@@ -1,0 +1,11 @@
+POST http://localhost:3003/api/nuevo-evento
+Content-Type: application/json
+
+{
+    "featureEvent": true,
+    "event": "cine",
+    "date": "01/12/2021",
+    "price": 7500,
+    "description": "mirando paw patrol",
+    "userId": "610c9d8c4a5c1335b4d489e7"
+}

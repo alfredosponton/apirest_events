@@ -1,0 +1,11 @@
+PUT http://localhost:3003/api/events/610fde18673d8a3da0c3b660
+Content-Type: application/json
+
+{
+    "featuredEvent": true,
+    "event": "user de primera",
+    "date": "01/01/2020",
+    "price": 199,
+    "description": "se modifica la nota con user",
+    "userId": "610c9b371807782e5c00ebbe"
+}
